@@ -19,6 +19,7 @@
     btop
     hyprshot
     apple-cursor
+    xorg.xeyes
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
