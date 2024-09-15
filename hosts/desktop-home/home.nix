@@ -15,8 +15,8 @@
       package = pkgs.vscode.fhs;
       userSettings = {
         "keyboard.dispatch" = "keyCode";
-        "nix.enableLanguageServer": true;
-        "nix.serverPath": "nixd";
+        "nix.enableLanguageServer" = true;
+        "nix.serverPath" = "nixd";
       };
     };
   };
