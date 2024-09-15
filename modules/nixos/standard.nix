@@ -42,6 +42,7 @@
 
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
+
   fonts.packages = [ pkgs.meslo-lgs-nf];
   stylix = {
     enable = true;
