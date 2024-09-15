@@ -90,6 +90,11 @@
         "$mainMod CONTROl, left, movecurrentworkspacetomonitor, eDP-1"
       ];
 
+      bindm = [
+        "$mainMod, mouse:272, movewindow"
+        "bindm = $mainMod, mouse:273, resizewindow"
+      ];
+
     ##############################
     # Other
     ##############################
