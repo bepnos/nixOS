@@ -69,10 +69,8 @@
     };
     opacity.terminal = 0.7;
 
-    #cursor = {
-    #  package = pkgs.apple-cursor;
-    #  name = "macOS White";
-    #  size = 10;
-    #};
+    cursor = {
+      size = 10;
+    };
   };
 }
