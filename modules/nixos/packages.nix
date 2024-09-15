@@ -6,7 +6,7 @@
     kitty
     git
     google-chrome
-    neofetch
+    fastfetch
     wofi
     pavucontrol
     oh-my-zsh
