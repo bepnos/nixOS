@@ -69,4 +69,5 @@
     };
     opacity.terminal = 0.7;
   };
+  stylix.cursor.size = 10;
 }
