@@ -20,8 +20,6 @@
     hyprshot
     apple-cursor
     xorg.xeyes
-    firefox
-    vscodium-fhs
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
