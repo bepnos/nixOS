@@ -70,7 +70,9 @@
     opacity.terminal = 0.7;
 
     cursor = {
-      size = 10;
+      package = pkgs.apple-cursor;
+      name = "macOS";
+      size = 2;
     };
   };
 }
