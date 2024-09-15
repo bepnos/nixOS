@@ -16,6 +16,7 @@
     thefuck
     meslo-lgs-nf
     flameshot
+    btop
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
