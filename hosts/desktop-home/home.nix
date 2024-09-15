@@ -21,8 +21,6 @@
     };
     btop.enable = true;
   };
-  stylix.cursor.size = 10;
-
   imports = [
     ../../modules/home-manager
   ];
