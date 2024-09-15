@@ -74,7 +74,7 @@
     cursor = {
       package = pkgs.apple-cursor;
       name = "macOS dsfs";
-      size = 2;
+      size = 20;
     };
   };
 }
