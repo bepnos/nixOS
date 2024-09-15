@@ -18,6 +18,7 @@
     flameshot
     btop
     hyprshot
+    hyprcursor
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
