@@ -71,7 +71,7 @@
 
     cursor = {
       package = pkgs.apple-cursor;
-      name = "macOS sg";
+      name = "macOS dsfs";
       size = 2;
     };
   };
