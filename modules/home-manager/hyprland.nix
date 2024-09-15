@@ -100,6 +100,7 @@
     ##############################
     exec-once = [
       "hyprpaper"
+      "hyprctl setcursor numix-cursor-theme 10"
     ];
     };
   };

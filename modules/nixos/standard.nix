@@ -68,6 +68,10 @@
       };
     };
     opacity.terminal = 0.7;
+
+    cursor = {
+      package = pkgs.apple-cursor;
+      size = 20;
+    };
   };
-  stylix.cursor.package = pkgs.numix-cursor-theme;
 }
