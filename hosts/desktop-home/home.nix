@@ -24,4 +24,6 @@
   imports = [
     ../../modules/home-manager
   ];
+  gtk.cursorTheme.size = 10;
+  gtk.cursorTheme.name = "macOS";
 }
