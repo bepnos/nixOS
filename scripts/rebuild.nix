@@ -11,6 +11,7 @@ pkgs.writeShellScriptBin "rebuild" ''
   gennumber=$(echo "$gen" | grep -oE '^[0-9]+')
   gendate=$(echo "$gen" | grep -oE "[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}")
   read -p ":: Enter commit changelog: " changelog
+   git add .
    git commit -am "[gen-$gennumber]: $changelog ($gendate)"
    git push
    popd
