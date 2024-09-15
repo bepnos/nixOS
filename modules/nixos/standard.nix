@@ -67,7 +67,6 @@
         name = "MesloLGS NF";
       };
     };
-    cursor.size = 10;
     opacity.terminal = 0.7;
   };
 }
