@@ -14,5 +14,6 @@
     hyprpaper
     nixd
     thefuck
+    (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
