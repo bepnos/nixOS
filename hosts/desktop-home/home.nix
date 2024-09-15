@@ -20,6 +20,7 @@
       };
     };
     btop.enable = true;
+    firefox.enable = true;
   };
   imports = [
     ../../modules/home-manager
