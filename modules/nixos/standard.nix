@@ -71,7 +71,7 @@
 
     cursor = {
       package = pkgs.apple-cursor;
-      name = "macOS";
+      name = "macOS sg";
       size = 2;
     };
   };
