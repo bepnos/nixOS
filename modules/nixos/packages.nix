@@ -17,6 +17,7 @@
     meslo-lgs-nf
     flameshot
     btop
+    hyprshot
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
