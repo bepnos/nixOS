@@ -12,6 +12,7 @@
     home-manager.enable = true;
     vscode = {
       enable = true;
+      package = pkgs.vscode.fhs;
       userSettings = {
         "keyboard.dispatch" = "keyCode";
         "nix.enableLanguageServer" = true;
@@ -19,7 +20,6 @@
       };
     };
     btop.enable = true;
-    firefox.enable = true;
   };
   imports = [
     ../../modules/home-manager
