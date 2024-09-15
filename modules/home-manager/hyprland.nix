@@ -5,10 +5,6 @@
   ##############################
   services.hyprpaper = {
     enable = true;
-    settings = {
-      preload = "~/nixos/assets/evening-sky.png";
-      wallpaper = ",~/nixos/assets/evening-sky.png";
-    };
   };
 
   ##############################

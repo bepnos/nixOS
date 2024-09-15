@@ -14,6 +14,6 @@
     users = {
       "bepnos" = import ./home.nix;
     };
-    backupFileExtension = "backup";
+    backupFileExtension = "old";
   };
 }
