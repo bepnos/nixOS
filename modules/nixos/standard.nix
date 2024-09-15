@@ -71,7 +71,7 @@
 
     cursor = {
       package = pkgs.apple-cursor;
-      name = "macOS";
+      name = "macOS asdf";
       size = 2;
     };
   };
