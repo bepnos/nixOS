@@ -9,7 +9,7 @@
           style = "Regular";
         };
       };
-      opacity = 0.8;
+      window.opacity = 0.8;
     };
   };
 }
