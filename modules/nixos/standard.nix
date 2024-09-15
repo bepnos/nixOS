@@ -38,4 +38,6 @@
     enable = true;
     powerOnBoot = true;
   };
+
+  fonts.packages = [ pkgs.meslo-lgs-nf];
 }

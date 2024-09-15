@@ -14,6 +14,7 @@
     hyprpaper
     nixd
     thefuck
+    meslo-lgs-nf
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
