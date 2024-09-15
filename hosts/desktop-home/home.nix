@@ -19,6 +19,7 @@
         "nix.serverPath" = "nixd";
       };
     };
+    btop.enable = true;
   };
 
   imports = [
