@@ -18,6 +18,7 @@
     flameshot
     btop
     hyprshot
+    numix-cursor-theme
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }

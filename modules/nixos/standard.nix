@@ -69,5 +69,5 @@
     };
     opacity.terminal = 0.7;
   };
-  stylix.cursor.size = 10;
+  stylix.cursor.package = pkgs.numix-cursor-theme;
 }
