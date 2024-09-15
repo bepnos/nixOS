@@ -20,6 +20,7 @@
     hyprshot
     apple-cursor
     xorg.xeyes
+    firefox
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
