@@ -68,7 +68,7 @@
       };
     };
     cursor = {
-      size = 30;
+      size = 15;
     };
     opacity.terminal = 0.7;
   };
