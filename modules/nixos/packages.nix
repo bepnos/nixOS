@@ -15,6 +15,7 @@
     nixd
     thefuck
     meslo-lgs-nf
+    shotman
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
