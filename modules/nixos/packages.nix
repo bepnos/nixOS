@@ -25,6 +25,7 @@
     vesktop
     slack
     nixpkgs-fmt
+    nixd
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
