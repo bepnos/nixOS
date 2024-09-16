@@ -1,0 +1,4 @@
+{...}:
+{
+  programs.discocss.enable = true;
+}

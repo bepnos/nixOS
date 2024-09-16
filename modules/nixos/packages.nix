@@ -23,6 +23,7 @@
     waybar
     networkmanagerapplet
     pamixer
+    discord
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
