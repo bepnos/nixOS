@@ -5,6 +5,12 @@
   ##############################
   programs.waybar = {
     enable = true;
+    settings.mainbar = {
+      modules-left = [
+        "hyprland/workspaces"
+        "hyprland/window"
+      ];
+    };
   };
 
 
