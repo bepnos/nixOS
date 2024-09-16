@@ -1,6 +1,14 @@
 { ... }:
 {
   ##############################
+  # Waybar Configuration
+  ##############################
+  programs.waybar = {
+    enable = true;
+  };
+
+
+  ##############################
   # Hyprpaper Configuration
   ##############################
   services.hyprpaper = {
