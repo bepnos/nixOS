@@ -20,6 +20,7 @@
     hyprshot
     apple-cursor
     xorg.xeyes
+    waybar
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
