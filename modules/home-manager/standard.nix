@@ -16,6 +16,7 @@
         "nix.enableLanguageServer" = true;
         "nix.formatterPath" = "nixpkgs-fmt";
         "nix.serverPath" = "nil";
+        "nil.formatting.command" = "nix fmt";
       };
     };
     btop.enable = true;
