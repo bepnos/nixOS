@@ -1,1 +1,4 @@
-{ imports = [ ./git.nix ./hyprland.nix ./zsh.nix ./alacritty.nix ./standard.nix ]; }
+{
+  imports =
+    [ ./git.nix ./hyprland.nix ./zsh.nix ./alacritty.nix ./standard.nix ];
+}
