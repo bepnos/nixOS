@@ -21,6 +21,7 @@
     apple-cursor
     xorg.xeyes
     waybar
+    networkmanagerapplet
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
