@@ -23,7 +23,7 @@
     waybar
     networkmanagerapplet
     pamixer
-    discord
+    vesktop
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
