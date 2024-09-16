@@ -26,6 +26,7 @@
     slack
     nixpkgs-fmt
     nixd
+    nixfmt-rfc-style
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
