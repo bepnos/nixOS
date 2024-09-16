@@ -24,6 +24,7 @@
     networkmanagerapplet
     pamixer
     vesktop
+    slack
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
