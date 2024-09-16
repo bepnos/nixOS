@@ -10,6 +10,22 @@
         "hyprland/workspaces"
         "hyprland/window"
       ];
+
+      modules-center = [
+        "clock"
+      ];
+
+      "hyprland/workspaces" = {
+        format = " {icon} ";
+        format-icons = {
+          "1" = "";
+          "2" = "";
+          "3" = "";
+          "4" = "";
+          "5" = "ﭮ";
+          "6" = "";
+        };
+      };
     };
   };
 
