@@ -1,4 +1,4 @@
-{pkgs}:
+{ pkgs }:
 pkgs.writeShellScriptBin "rebuild" ''
    pushd ~/nixos/
    echo ":: NixOS rebuilding..."

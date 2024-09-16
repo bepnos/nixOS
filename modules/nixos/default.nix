@@ -1,7 +1,1 @@
-{
-  imports = [
-    ./user.nix
-    ./packages.nix
-    ./standard.nix
-  ];
-}
+{ imports = [ ./user.nix ./packages.nix ./standard.nix ]; }

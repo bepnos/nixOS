@@ -1,5 +1,4 @@
-{  pkgs, ... }:
-{
+{ pkgs, ... }: {
   home = {
     username = "bepnos";
     homeDirectory = "/home/bepnos";
@@ -21,7 +20,5 @@
     };
     btop.enable = true;
   };
-  imports = [
-    ../../modules/home-manager
-  ];
+  imports = [ ../../modules/home-manager ];
 }

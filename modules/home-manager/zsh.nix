@@ -1,16 +1,13 @@
-{...}: {
+{ ... }: {
   programs.zsh = {
-    enable = true; 
+    enable = true;
     autosuggestion.enable = true;
     enableCompletion = true;
 
     oh-my-zsh = {
       enable = true;
       theme = "robbyrussell";
-      plugins = [
-        "git"
-        "thefuck"
-      ];
+      plugins = [ "git" "thefuck" ];
     };
   };
 }

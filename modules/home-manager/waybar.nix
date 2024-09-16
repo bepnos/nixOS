@@ -1,24 +1,15 @@
-{ ... }:
-{
+{ ... }: {
   ##############################
   # Waybar Configuration
   ##############################
   programs.waybar = {
     enable = true;
     settings.mainbar = {
-      modules-left = [
-        "hyprland/workspaces"
-      ];
+      modules-left = [ "hyprland/workspaces" ];
 
-      modules-center = [
-        "clock"
-      ];
+      modules-center = [ "clock" ];
 
-      modules-right = [
-        "network"
-        "battery"
-        "pulseaudio"
-      ];
+      modules-right = [ "network" "battery" "pulseaudio" ];
 
       "hyprland/workspaces" = {
         format = " {icon} ";

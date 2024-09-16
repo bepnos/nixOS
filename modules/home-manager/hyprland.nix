@@ -1,16 +1,13 @@
-{ ... }:
-{
+{ ... }: {
   ##############################
   # Hyprpaper Configuration
   ##############################
-  services.hyprpaper = {
-    enable = true;
-  };
+  services.hyprpaper = { enable = true; };
 
   ##############################
   # Hyprland Configuration
   ##############################
-  wayland.windowManager.hyprland = { 
+  wayland.windowManager.hyprland = {
     enable = true;
     settings = {
 
@@ -30,7 +27,7 @@
       workspace = [
         "1, monitor:DP-1" # editor / main
         "2, monitor:DP-1" # terminal
-        "3, monitor:HDMI-A-1" # browser 
+        "3, monitor:HDMI-A-1" # browser
         "4, monitor:HDMI-A-1" # spotify
         "5, monitor:HDMI-A-1" # discord
         "6, monitor:HDMI-A-1" # slack
@@ -95,22 +92,19 @@
         "bindm = $mainMod, mouse:273, resizewindow"
       ];
 
-      windowrule = [
-        "float, (nm)" 
-        "float, (pavucontrol)"
-      ];
+      windowrule = [ "float, (nm)" "float, (pavucontrol)" ];
 
-    ##############################
-    # Other
-    ##############################
-    exec-once = [
-      "hyprpaper"
-      "hyprctl setcursor numix-cursor-theme 10"
-      "ln -s ~/nixos/assets/macOS ~/.local/share/icons/macOS"
-      "hyprctl setcursor macOS 20"
-      "nm-applet --indicator"
-      "waybar"
-    ];
+      ##############################
+      # Other
+      ##############################
+      exec-once = [
+        "hyprpaper"
+        "hyprctl setcursor numix-cursor-theme 10"
+        "ln -s ~/nixos/assets/macOS ~/.local/share/icons/macOS"
+        "hyprctl setcursor macOS 20"
+        "nm-applet --indicator"
+        "waybar"
+      ];
     };
   };
 }
