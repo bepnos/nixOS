@@ -15,6 +15,7 @@
       ];
 
       modules-right = [
+        "tray"
         "network"
         "battery"
         "pulseaudio"
