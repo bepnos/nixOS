@@ -138,6 +138,10 @@
         "bindm = $mainMod, mouse:273, resizewindow"
       ];
 
+      windowrule = [
+        "float, ^(network)$"
+      ];
+
     ##############################
     # Other
     ##############################
