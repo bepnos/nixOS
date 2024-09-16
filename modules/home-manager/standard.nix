@@ -15,7 +15,12 @@
         "keyboard.dispatch" = "keyCode";
         "nix.enableLanguageServer" = true;
         "nix.formatterPath" = "nixpkgs-fmt";
-        "nix.serverPath" = "nil";
+        "nix.serverPath" = "nixd";
+        "nix.serverSettings.nixd" = {
+          "formatting" = {
+            "command" = "nixfmt";
+          };
+        };
       };
     };
     btop.enable = true;
