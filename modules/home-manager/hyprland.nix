@@ -15,7 +15,6 @@
       ];
 
       modules-right = [
-        "tray"
         "network"
         "battery"
         "pulseaudio"
@@ -32,7 +31,15 @@
           "6" = "";
         };
       };
+      network = {
+        interval = 5;
+        format-wifi = " ";
+        format-ethernet = " ";
+        format-disconnected = " ";
+        on-click = "nm-connection-editor";
+      };
     };
+
   };
 
 
