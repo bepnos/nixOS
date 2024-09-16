@@ -22,6 +22,7 @@
     xorg.xeyes
     waybar
     networkmanagerapplet
+    nm-tray
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }

@@ -139,6 +139,7 @@
       "hyprctl setcursor numix-cursor-theme 10"
       "ln -s ~/nixos/assets/macOS ~/.local/share/icons/macOS"
       "hyprctl setcursor macOS 20"
+      "nm-applet --indicator"
     ];
     };
   };
