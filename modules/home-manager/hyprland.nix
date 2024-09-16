@@ -8,17 +8,22 @@
     settings.mainbar = {
       modules-left = [
         "hyprland/workspaces"
-        "hyprland/window"
       ];
 
       modules-center = [
         "clock"
       ];
 
+      modules-right = [
+        "network"
+        "battery"
+        "pulseaudio"
+      ];
+
       "hyprland/workspaces" = {
         format = " {icon} ";
         format-icons = {
-          "1" = "";
+          "1" = "";
           "2" = "";
           "3" = "";
           "4" = "";
