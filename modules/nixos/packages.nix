@@ -25,6 +25,7 @@
     pamixer
     vesktop
     slack
+    nixpkgs-fmt
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
