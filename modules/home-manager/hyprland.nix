@@ -38,6 +38,15 @@
         format-disconnected = " ";
         on-click = "nm-connection-editor";
       };
+
+      pulseaudio = {
+        scroll-step = 1;
+        format = " {icon} {volume}%";
+        format-bluetooth = "{volume}% {icon} ";
+        format-muted = "󰸈";
+        on-click = "pavucontrol";
+        on-click-right = "pamixer -t";
+      };
     };
 
   };
@@ -139,7 +148,8 @@
       ];
 
       windowrule = [
-        "float, (nm)"
+        "float, (nm)" 
+        "float, (pavucontrol)"
       ];
 
     ##############################
@@ -151,6 +161,7 @@
       "ln -s ~/nixos/assets/macOS ~/.local/share/icons/macOS"
       "hyprctl setcursor macOS 20"
       "nm-applet --indicator"
+      "waybar"
     ];
     };
   };
