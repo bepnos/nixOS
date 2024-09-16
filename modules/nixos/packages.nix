@@ -11,7 +11,7 @@
     oh-my-zsh
     alacritty
     hyprpaper
-    nixd
+    nil
     thefuck
     meslo-lgs-nf
     flameshot
