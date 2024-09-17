@@ -1,4 +1,4 @@
 {
   imports =
-    [ ./git.nix ./hyprland.nix ./zsh.nix ./alacritty.nix ./standard.nix ];
+    [ ./git.nix ./hyprland.nix ./zsh.nix ./alacritty.nix ./standard.nix ./waybar.nix];
 }
