@@ -24,6 +24,9 @@
         };
         "editor.formatOnSave" = true;
         "json.format.enable" = false;
+        "[typescript]" = {
+          "editor.defaultFormatter" = "rvest.vs-code-prettier-eslint";
+        };
       };
     };
     btop.enable = true;
