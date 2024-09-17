@@ -7,12 +7,12 @@
 
     oh-my-zsh = {
       enable = true;
-      theme = "powerlevel10k/powerlevel10k";
+      custom = "~/nixos/assets/";
+      theme = "sunrise";
       plugins = [
         "git"
         "thefuck"
       ];
     };
-
   };
 }
