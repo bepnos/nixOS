@@ -21,6 +21,8 @@
             "command" = "nixfmt";
           };
         };
+        "editor.defaultFormatter" = "esbenp.prettier-vscode";
+        "editor.formatOnSave" = true;
       };
     };
     btop.enable = true;
