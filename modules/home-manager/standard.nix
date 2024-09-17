@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   home = {
     username = "bepnos";
     homeDirectory = "/home/bepnos";
@@ -22,7 +23,7 @@
           };
         };
         "editor.formatOnSave" = true;
-
+        "json.format.enable" = false;
       };
     };
     btop.enable = true;
