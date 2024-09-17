@@ -30,6 +30,7 @@
     nixfmt-rfc-style
     spotify
     zsh-powerlevel10k
+    cmatrix
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
