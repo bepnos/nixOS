@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   ##############################
   # Waybar Configuration
   ##############################
@@ -9,7 +10,11 @@
 
       modules-center = [ "clock" ];
 
-      modules-right = [ "network" "battery" "pulseaudio" ];
+      modules-right = [
+        "network"
+        "battery"
+        "pulseaudio"
+      ];
 
       "hyprland/workspaces" = {
         format = " {icon} ";
