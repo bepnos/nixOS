@@ -5,7 +5,7 @@ let pkgs = import <nixpkgs> {};
     nodejs-20 = buildNodejs {
       enableNpm = true;
       version = "20.11.0";
-      sha = "";
+      sha256 = "";
     };
 
 in pkgs.mkShell rec {
