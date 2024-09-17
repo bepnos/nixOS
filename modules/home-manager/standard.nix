@@ -21,7 +21,7 @@
             "command" = "nixfmt";
           };
         };
-        "editor.defaultFormatter" = "esbenp.prettier-vscode";
+        "editor.defaultFormatter" = "rvest.vs-code-prettier-eslint";
         "editor.formatOnSave" = true;
       };
     };
