@@ -9,10 +9,10 @@ let pkgs = import <nixpkgs> {};
     };
 
 in pkgs.mkShell rec {
-  name = "webdev";
+  name = "quivr-cp";
   
   buildInputs = with pkgs; [
     nodejs-20
-    (yarn.override { nodejs = nodejs-8; })
+    yarn-berry
   ];
 }
