@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-24.05"; # Most shells will not need cutting edge nixpkgs
     yarn-cp.url = "nixpkgs/a9858885e197f984d92d7fe64e9fff6b2e488d40"; # 4.2.2
-    nodejs-cp.url = "nixpkgs/080a4a27f206d07724b88da096e27ef63401a504"; # 20.11.1
+    nodejs-cp.url = "nixpkgs/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6"; # 20.11.0
   };
 
   outputs = { self , nixpkgs, ... }@inputs: 
