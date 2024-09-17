@@ -27,6 +27,8 @@
     nixpkgs-fmt
     nixd
     nixfmt-rfc-style
+    spotify
+    spicetify-cli
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
