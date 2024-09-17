@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   environment.systemPackages = with pkgs; [
     vim
     wget
@@ -28,6 +29,7 @@
     nixd
     nixfmt-rfc-style
     spotify
+    zsh-powerlevel10k
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
