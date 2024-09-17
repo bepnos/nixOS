@@ -8,7 +8,7 @@
     oh-my-zsh = {
       enable = true;
       custom = "~/nixos/assets/";
-      theme = "powerlevel10k/powerlevel10k";
+      theme = "powerlevel10k";
       plugins = [
         "git"
         "thefuck"
