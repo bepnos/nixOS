@@ -34,7 +34,23 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "nodejs-cp": "nodejs-cp"
+        "nodejs-cp": "nodejs-cp",
+        "yarn-cp": "yarn-cp"
+      }
+    },
+    "yarn-cp": {
+      "locked": {
+        "lastModified": 1718225733,
+        "narHash": "sha256-aTIpfLT+hQr0H1d7QA2k5a5rWrkL+M8ECN2tI9ClpSg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a9858885e197f984d92d7fe64e9fff6b2e488d40",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "rev": "a9858885e197f984d92d7fe64e9fff6b2e488d40",
+        "type": "indirect"
       }
     }
   },
