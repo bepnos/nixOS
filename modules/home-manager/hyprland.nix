@@ -1,8 +1,11 @@
-{ ... }: {
+{ ... }:
+{
   ##############################
   # Hyprpaper Configuration
   ##############################
-  services.hyprpaper = { enable = true; };
+  services.hyprpaper = {
+    enable = true;
+  };
 
   ##############################
   # Hyprland Configuration
@@ -23,7 +26,10 @@
       ##############################
       # Monitor Configuration
       ##############################
-      "monitor" = "DP-1, 1920x1080@240, 0x0, 1";
+      "monitor" = [
+        "DP-1, 1920x1080@240, 0x0, 1"
+        "HDMI-A-1, highrr, 1920x0, 2"
+      ];
       workspace = [
         "1, monitor:DP-1" # editor / main
         "2, monitor:DP-1" # terminal
@@ -92,7 +98,10 @@
         "bindm = $mainMod, mouse:273, resizewindow"
       ];
 
-      windowrule = [ "float, (nm)" "float, (pavucontrol)" ];
+      windowrule = [
+        "float, (nm)"
+        "float, (pavucontrol)"
+      ];
 
       ##############################
       # Other
