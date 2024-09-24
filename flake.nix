@@ -12,16 +12,29 @@
     };
   };
 
-  outputs = { nixpkgs, ... }@inputs: {
-    formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
-    nixosConfigurations = {
-      desktop-home = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit inputs; };
-        modules = [
-          ./hosts/desktop-home/configuration.nix
-          inputs.stylix.nixosModules.stylix
-        ];
+  outputs =
+    { nixpkgs, ... }@inputs:
+    {
+      formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
+      nixosConfigurations = {
+        desktop-home = nixpkgs.lib.nixosSystem {
+          specialArgs = {
+            inherit inputs;
+          };
+          modules = [
+            ./hosts/desktop-home/configuration.nix
+            inputs.stylix.nixosModules.stylix
+          ];
+        };
+        old-desktop = nixpkgs.lib.nixosSystem {
+          specialArgs = {
+            inherit inputs;
+          };
+          modules = [
+            ./hosts/old-desktop/configuration.nix
+            inputs.stylix.nixosModules.stylix
+          ];
+        };
       };
     };
-  };
 }
