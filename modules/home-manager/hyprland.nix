@@ -28,7 +28,6 @@
       ##############################
       "monitor" = [
         "DP-1, 1920x1080@240, 0x0, 1"
-        "HDMI-A-1, 1920x1080@144, auto, 1"
       ];
       workspace = [
         "1, monitor:DP-1" # editor / main
