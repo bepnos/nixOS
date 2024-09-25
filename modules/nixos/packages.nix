@@ -31,6 +31,7 @@
     spotify
     zsh-powerlevel10k
     cmatrix
+    obsidian
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
