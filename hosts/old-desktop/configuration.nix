@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ inputs, config, ... }:
 {
   imports = [
     ./hardware-configuration.nix
@@ -7,6 +7,15 @@
   ];
   networking.hostName = "old-desktop";
   system.stateVersion = "24.05";
+
+  hardware.opengl.enable = true;
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nvidia = {
+    package = config.boot.kernelPackages.nvidiaPackages.production;
+    modesetting.enable = true;
+    open = false;
+    nvidiaSettings = true;
+  };
 
   home-manager = {
     extraSpecialArgs = {
