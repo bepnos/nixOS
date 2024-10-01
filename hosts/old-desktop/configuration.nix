@@ -15,6 +15,9 @@
     modesetting.enable = true;
     open = false;
     nvidiaSettings = true;
+    prime = {
+      nvidiaBusId = "PCI:1:0:0";
+    };
   };
 
   home-manager = {
