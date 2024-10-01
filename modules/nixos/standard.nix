@@ -1,15 +1,19 @@
-{ pkgs, inputs, ... }: {
+{ pkgs, inputs, ... }:
+{
   nix.settings = {
     substituters = [ "https://hyprland.cachix.org" ];
-    trusted-public-keys =
-      [ "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc=" ];
-    experimental-features = [ "nix-command" "flakes" ];
+    trusted-public-keys = [ "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc=" ];
+    experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
   };
   nixpkgs.config.allowUnfree = true;
 
   boot.loader = {
     systemd-boot.enable = true;
     efi.canTouchEfiVariables = true;
+    timeout = null;
   };
 
   networking.networkmanager.enable = true;
@@ -18,12 +22,10 @@
 
   programs.hyprland = {
     enable = true;
-    package =
-      inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
   };
 
   security.rtkit.enable = true;
-
 
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
@@ -42,7 +44,6 @@
     enable = true;
     powerOnBoot = true;
   };
-
 
   fonts.packages = [ pkgs.meslo-lgs-nf ];
   stylix = {
