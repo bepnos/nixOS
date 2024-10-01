@@ -7,7 +7,6 @@
   ];
   networking.hostName = "old-desktop";
   system.stateVersion = "24.05";
-  environment.sessionVariables.NIXOS_OZONE_WL = "0";
 
   home-manager = {
     extraSpecialArgs = {
