@@ -16,11 +16,6 @@
     open = false;
     nvidiaSettings = true;
     forceFullCompositionPipeline = true;
-    prime = {
-      nvidiaBusId = "PCI:1:0:0";
-      intelBusId = "PCI:0:2:0";
-      sync.enable = true;
-    };
   };
 
   home-manager = {
