@@ -13,7 +13,7 @@
   boot.loader = {
     systemd-boot.enable = true;
     efi.canTouchEfiVariables = true;
-    timeout = null;
+    timeout = 0;
   };
 
   networking.networkmanager.enable = true;
