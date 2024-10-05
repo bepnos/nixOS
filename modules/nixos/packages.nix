@@ -32,6 +32,7 @@
     zsh-powerlevel10k
     cmatrix
     obsidian
+    eza
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
