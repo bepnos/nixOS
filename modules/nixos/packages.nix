@@ -33,6 +33,7 @@
     cmatrix
     obsidian
     eza
+    bruno
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
