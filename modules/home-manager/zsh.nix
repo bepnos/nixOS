@@ -18,7 +18,7 @@
     initExtra = "
       function chpwd() {
         emulate -L zsh
-        ls
+        eza -l
       } 
     ";
   };
