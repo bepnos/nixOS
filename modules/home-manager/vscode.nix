@@ -19,6 +19,8 @@
         "json.format.enable" = false;
         "terminal.integrated.defaultProfile.linux" = "zsh";
         "vim.smartRelativeLine" = true;
+        "vscord.app.name" = "Custom";
+        "vscord.app.id" = "your mom";
       };
     };
   };
