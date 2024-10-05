@@ -1,6 +1,7 @@
 { pkgs }:
 pkgs.writeShellScriptBin "rebuild" ''
    pushd ~/nixos/
+   git pull
    echo ":: NixOS rebuilding..."
    sudo nixos-rebuild switch --flake ~/nixos/#$hostname
    if [ ! $? -eq 0 ]; then
