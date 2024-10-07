@@ -38,7 +38,7 @@
         laptop = nixpkgs.lib.nixosSystem {
           specialArgs = {
             inherit inputs; 
-          }
+          };
           modules = [
             ./hosts/laptop/configuration.nix
             inputs.stylix.nixosModules.stylix
