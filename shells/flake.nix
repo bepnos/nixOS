@@ -21,15 +21,17 @@
             inputs.nodejs-cp.legacyPackages.${system}.nodejs_20
           ];
         };
-        python = pkgs.buildFHSUserEnv {
-          name = "test";
+      };
+      python =
+        (pkgs.buildFHSUserEnv {
           targetPkgs =
-            pkgs: with pkgs; [
+            pkgs:
+            (with pkgs; [
               python3
               python312Packages.numpy
-            ];
+              python312Packages.pip
+            ]);
           runScript = "zsh";
-        };
-      };
+        }).env;
     };
 }
