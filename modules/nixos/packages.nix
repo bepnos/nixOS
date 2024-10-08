@@ -34,6 +34,7 @@
     obsidian
     eza
     bruno
+    devenv
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
