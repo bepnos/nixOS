@@ -26,9 +26,9 @@
           targetPkgs =
             pkgs: with pkgs; [
               python3
-              python38Packages.pip
               python312Packages.numpy
             ];
+          runScript = "zsh";
         };
       };
     };
