@@ -21,13 +21,13 @@
             inputs.nodejs-cp.legacyPackages.${system}.nodejs_20
           ];
         };
-      };
-      python = pkgs.mkShell {
-        nativeBuildInputs = with pkgs; [
-          python38
-          python38Packages.pip
-          python38Packages.numpy
-        ];
+        python = pkgs.mkShell {
+          nativeBuildInputs = with pkgs; [
+            python38
+            python38Packages.pip
+            python38Packages.numpy
+          ];
+        };
       };
     };
 }
