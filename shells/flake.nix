@@ -22,12 +22,13 @@
           ];
         };
         python = pkgs.buildFHSUserEnv {
-          
-            python3
-            python312Packages.numpy
-            python312Packages.pandas
-            python312Packages.scipy
-          ];
+          name = "test";
+          targetPkgs =
+            pkgs: with pkgs; [
+              python3
+              python38Packages.pip
+              python312Packages.numpy
+            ];
         };
       };
     };
