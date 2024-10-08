@@ -22,16 +22,12 @@
           ];
         };
       };
-      python =
-        (pkgs.buildFHSUserEnv {
-          targetPkgs =
-            pkgs:
-            (with pkgs; [
-              python3
-              python312Packages.numpy
-              python312Packages.pip
-            ]);
-          runScript = "zsh";
-        }).env;
+      python = pkgs.mkShell {
+        nativeBuildInputs = with pkgs; [
+          python38
+          python38Packages.pip
+          python38Packages.numpy
+        ];
+      };
     };
 }
