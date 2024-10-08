@@ -21,8 +21,8 @@
             inputs.nodejs-cp.legacyPackages.${system}.nodejs_20
           ];
         };
-        python = pkgs.mkShell {
-          nativeBuildInputs = with pkgs; [
+        python = pkgs.buildFHSUserEnv {
+          
             python3
             python312Packages.numpy
             python312Packages.pandas
