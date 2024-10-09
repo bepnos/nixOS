@@ -38,6 +38,7 @@
       jack.enable = true;
     };
     blueman.enable = true;
+    redis.enable = true;
   };
 
   hardware.bluetooth = {

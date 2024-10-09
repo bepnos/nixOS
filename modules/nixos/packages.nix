@@ -35,6 +35,7 @@
     eza
     bruno
     devenv
+    redis
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
