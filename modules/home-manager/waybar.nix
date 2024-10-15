@@ -12,7 +12,7 @@
 
       clock = {
         "format" = "{:%H:%M}";
-        "format-alt" = "{:%A, %B %d, %Y (%R)}";
+        "format-alt" = "{:%A, %B %d,(%R)}";
         "tooltip-format" = "<tt><small>{calendar}</small></tt>";
         "calendar" = {
           "mode" = "year";
