@@ -23,10 +23,10 @@
         };
         python = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
-            python3
-            python312Packages.pip
-            python312Packages.numpy
-            python312Packages.pandas
+            python311
+            python311Packages.numpy
+            python311Packages.pandas
+            python311Packages.pip
           ];
           VIRTUAL_ENV = "python";
         };
