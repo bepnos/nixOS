@@ -44,6 +44,22 @@
             lcov
             vcpkg
             vcpkg-tool
+            python311
+            python311Packages.numpy
+            python311Packages.pandas
+            python311Packages.pip
+            python311Packages.matplotlib
+          ];
+        };
+        java = pkgs.mkShell {
+          nativeBuildInputs = with pkgs; [
+            gcc
+            gradle
+            jdk
+            maven
+            ncurses
+            patchelf
+            zlib
           ];
         };
       };
