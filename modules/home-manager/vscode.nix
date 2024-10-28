@@ -21,6 +21,7 @@
         "vim.smartRelativeLine" = true;
         "vscord.app.name" = "Custom";
         "vscord.app.id" = "1206940027200733234";
+        "C_Cpp.intelliSenseEngine" = "disabled";
       };
     };
   };
