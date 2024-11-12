@@ -21,7 +21,7 @@
         eza -l
       } 
       function develop() {
-        nix develop ~/nixos/shells/#'$1'; --command zsh
+        nix develop ~/nixos/shells/#$1; --command zsh
       }
     ";
   };
