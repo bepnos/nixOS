@@ -22,7 +22,7 @@
         "vscord.app.name" = "Custom";
         "vscord.app.id" = "1206940027200733234";
         "C_Cpp.intelliSenseEngine" = "disabled";
-        "editor.quickSuggestionsDelay" = 500;
+        "python.analysis.inlayHints.functionReturnTypes" = true;
       };
     };
   };
