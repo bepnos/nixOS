@@ -20,6 +20,9 @@
         emulate -L zsh
         eza -l
       } 
+      function develop() {
+        nix develop ~/nixos/shells/#'$1'; --command zsh
+      }
     ";
   };
 }
