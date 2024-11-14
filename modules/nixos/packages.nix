@@ -36,6 +36,7 @@
     bruno
     devenv
     redis
+    dbeaver-bin
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
