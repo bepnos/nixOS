@@ -36,7 +36,6 @@
     bruno
     devenv
     redis
-    super-productivity
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
