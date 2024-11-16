@@ -36,7 +36,7 @@
     bruno
     devenv
     redis
-    dbeaver-bin
+    super-productivity
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
