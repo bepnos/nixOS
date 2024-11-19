@@ -14,6 +14,13 @@
     ];
     shellAliases = {
       ls = "eza -l";
+      sl = "eza -l";
+      gc = "git commit";
+      gcam = "git commit -am";
+      gp = "git push";
+      gpl = "git pull";
+      gcob = "git checkout -b";
+      gco = "git checkout";
     };
     initExtra = "
       function chpwd() {
