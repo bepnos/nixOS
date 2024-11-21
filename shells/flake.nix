@@ -15,12 +15,6 @@
     in
     {
       devShells."x86_64-linux" = {
-        cp = pkgs.mkShell {
-          nativeBuildInputs = with pkgs; [
-            inputs.yarn-cp.legacyPackages.${system}.yarn-berry
-            inputs.nodejs-cp.legacyPackages.${system}.nodejs_20
-          ];
-        };
         python = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
             python311
@@ -31,7 +25,7 @@
           ];
           VIRTUAL_ENV = "python";
         };
-        cpp = pkgs.mkShell {
+        bdap = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
             clang-tools
             clang
@@ -49,6 +43,13 @@
             python311Packages.pandas
             python311Packages.pip
             python311Packages.matplotlib
+            gcc
+            gradle
+            jdk
+            maven
+            ncurses
+            patchelf
+            zlib
           ];
         };
         java = pkgs.mkShell {
