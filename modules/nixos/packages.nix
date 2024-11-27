@@ -36,6 +36,7 @@
     bruno
     devenv
     redis
+    ruff
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
