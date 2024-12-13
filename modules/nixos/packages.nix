@@ -36,7 +36,7 @@
     bruno
     devenv
     redis
-    texlive.combined.scheme-small
+    texlive.combined.scheme-medium
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
