@@ -23,6 +23,7 @@
         "vscord.app.id" = "1206940027200733234";
         "C_Cpp.intelliSenseEngine" = "disabled";
         "python.analysis.inlayHints.functionReturnTypes" = true;
+        "latex-utilities.liveReformat.enabled" = true;
       };
     };
   };
