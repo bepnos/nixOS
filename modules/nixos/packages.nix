@@ -36,6 +36,7 @@
     bruno
     devenv
     redis
+    texliveBasic
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
