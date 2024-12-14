@@ -33,7 +33,7 @@
           "-n3"
           "-n44"
         ];
-        "latex-workshop.linting.chktex.enabled" = false;
+        "latex-workshop.linting.chktex.enabled" = true;
       };
     };
   };
