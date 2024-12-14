@@ -39,6 +39,7 @@
         ];
         "latex-workshop.linting.chktex.enabled" = true;
         "latex.linter.enabled" = false;
+        "latex-workshop.view.pdf.invert" = 1;
       };
     };
   };
