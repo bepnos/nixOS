@@ -34,6 +34,7 @@
           "-n44"
         ];
         "latex-workshop.linting.chktex.enabled" = true;
+        "latex.linter.enabled" = false;
       };
     };
   };
