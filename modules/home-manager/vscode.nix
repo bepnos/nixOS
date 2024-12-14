@@ -24,6 +24,16 @@
         "C_Cpp.intelliSenseEngine" = "disabled";
         "python.analysis.inlayHints.functionReturnTypes" = true;
         "latex-utilities.liveReformat.enabled" = true;
+        "latex-workshop.linting.chktex.exec.args" = [
+          "-wall"
+          "-n22"
+          "-n30"
+          "-e16"
+          "-q"
+          "-n3"
+          "-n44"
+        ];
+        "latex-workshop.linting.chktex.enabled" = false;
       };
     };
   };
