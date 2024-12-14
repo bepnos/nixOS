@@ -32,6 +32,10 @@
           "-q"
           "-n3"
           "-n44"
+          "-n1"
+          "-n41"
+          "-n46"
+          "-n24"
         ];
         "latex-workshop.linting.chktex.enabled" = true;
         "latex.linter.enabled" = false;
