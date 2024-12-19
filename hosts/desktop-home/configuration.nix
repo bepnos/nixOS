@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ inputs, config, ... }:
 {
   imports = [
     ./hardware-configuration.nix
@@ -7,6 +7,16 @@
   ];
   networking.hostName = "desktop-home";
   system.stateVersion = "24.05";
+
+  hardware.opengl.enable = true;
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nvidia = {
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+    modesetting.enable = true;
+    open = false;
+    nvidiaSettings = true;
+    forceFullCompositionPipeline = true;
+  };
 
   home-manager = {
     extraSpecialArgs = {
