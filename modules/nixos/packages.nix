@@ -37,6 +37,7 @@
     devenv
     redis
     ruff
+    anki
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
