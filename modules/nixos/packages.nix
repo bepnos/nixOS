@@ -37,6 +37,7 @@
     devenv
     redis
     texlive.combined.scheme-full
+    anki-bin
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
