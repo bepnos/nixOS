@@ -29,6 +29,7 @@
       "monitor" = [
         "DP-1, 1920x1080@240, 0x0, 1"
         "eDP-1, 1920x1080@144, 0x0, 1.33333"
+        "HDMI-A-4, highres, auto, 1"
       ];
       workspace = [
         "1, monitor:DP-1" # editor / main
