@@ -69,7 +69,7 @@
     #   base0E = "c6a0f6"; # mauve
     #   base0F = "f0c6c6"; # flamingo
     # };
-    image = ../../assets/gruvbox-road.png;
+    image = ../../assets/gruvbox-self.png;
     # image = ../../assets/evening-sky.png;
     fonts = {
       monospace = {
