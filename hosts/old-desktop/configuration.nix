@@ -8,7 +8,7 @@
   networking.hostName = "old-desktop";
   system.stateVersion = "24.05";
 
-  hardware.opengl.enable = true;
+  hardware.graphics.enable = true;
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.nvidia = {
     package = config.boot.kernelPackages.nvidiaPackages.latest;
