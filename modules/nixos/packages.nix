@@ -37,6 +37,7 @@
     redis
     texlive.combined.scheme-full
     anki-bin
+    spotify
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
