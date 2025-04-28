@@ -28,7 +28,6 @@
     nixpkgs-fmt
     nixd
     nixfmt-rfc-style
-    spotify
     zsh-powerlevel10k
     cmatrix
     obsidian
@@ -38,8 +37,6 @@
     redis
     texlive.combined.scheme-full
     anki-bin
-    librespot
-    spotify-qt
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
