@@ -23,6 +23,7 @@
             python311Packages.pip
             python311Packages.matplotlib
             python311Packages.ipykernel
+            python311Packages.ray
           ];
           VIRTUAL_ENV = "python";
         };
