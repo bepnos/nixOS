@@ -68,7 +68,10 @@
         idp =
           (pkgs.buildFHSEnv {
             name = "IDP";
-            targetPks = pkgs;
+            targetPks =
+              pkgs: with pkgs; [
+                glib
+              ];
             runScript = "~/Repos/KKR/idp3-ide-linux-x64/idp3-ide";
           }).env;
       };
