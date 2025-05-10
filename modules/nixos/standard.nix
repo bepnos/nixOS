@@ -25,6 +25,10 @@
     package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
   };
 
+  programs.nix-ld = {
+    enable = true;
+  };
+
   security.rtkit.enable = true;
 
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
