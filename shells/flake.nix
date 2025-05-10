@@ -65,6 +65,12 @@
             zlib
           ];
         };
+        idp =
+          (pkgs.buildFHSEnv {
+            name = "IDP";
+            runScript = "~/Repos/KKR/idp3-ide-linux-x64/idp3-ide";
+
+          }).env;
       };
     };
 }
