@@ -71,6 +71,9 @@
             targetPks =
               pkgs: with pkgs; [
                 glib
+                gobject-introspection
+                gtk3
+                libGL
               ];
             runScript = "~/Repos/KKR/idp3-ide-linux-x64/idp3-ide";
           }).env;
