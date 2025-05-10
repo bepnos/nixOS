@@ -38,6 +38,7 @@
     texlive.combined.scheme-full
     anki-bin
     spotify
+    nix-ld
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
