@@ -38,6 +38,7 @@
     texlive.combined.scheme-full
     anki-bin
     spotify
+    zotero
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
