@@ -8,6 +8,7 @@ pkgs.mkShell {
     python311Packages.xknx
     python311Packages.pytube
     python311Packages.numpy
+    python311Packages.python-sat
   ];
   VIRTUAL_ENV = "python";
 }

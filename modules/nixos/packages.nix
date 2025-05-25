@@ -39,6 +39,7 @@
     anki-bin
     spotify
     nix-ld
+    v4l-utils
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
