@@ -40,6 +40,7 @@
     spotify
     nix-ld
     v4l-utils
+    discord
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
