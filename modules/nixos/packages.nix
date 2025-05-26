@@ -41,6 +41,7 @@
     nix-ld
     v4l-utils
     discord
+    zotero
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
