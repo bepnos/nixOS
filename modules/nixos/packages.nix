@@ -42,6 +42,7 @@
     v4l-utils
     discord
     zotero
+    unzip
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
