@@ -1,11 +1,5 @@
 { ... }:
 {
-  ##############################
-  # Hyprpaper Configuration
-  ##############################
-  services.hyprpaper = {
-    enable = true;
-  };
 
   ##############################
   # Hyprland Configuration
