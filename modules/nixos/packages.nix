@@ -44,6 +44,7 @@
     zotero
     unzip
     xflux-gui
+    xflux
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
