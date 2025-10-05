@@ -43,6 +43,7 @@
     discord
     zotero
     unzip
+    xflux-gui
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
