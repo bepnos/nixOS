@@ -45,6 +45,7 @@
     unzip
     xflux-gui
     xflux
+    redshift
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
