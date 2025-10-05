@@ -43,10 +43,7 @@
     discord
     zotero
     unzip
-    xflux-gui
-    xflux
-    redshift
-    geoclue2
+    gammastep
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
