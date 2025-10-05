@@ -46,6 +46,7 @@
     xflux-gui
     xflux
     redshift
+    geoclue2
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
