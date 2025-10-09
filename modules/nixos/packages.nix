@@ -34,7 +34,6 @@
     eza
     bruno
     devenv
-    redis
     texlive.combined.scheme-full
     anki-bin
     spotify
