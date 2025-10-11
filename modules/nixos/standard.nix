@@ -43,6 +43,7 @@
     };
     blueman.enable = true;
     redis.enable = true;
+    tailscale.enable = true;
   };
 
   hardware.bluetooth = {
