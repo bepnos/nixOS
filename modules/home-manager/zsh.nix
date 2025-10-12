@@ -30,6 +30,11 @@
       function develop() {
         nix develop ~/nixos/shells/#$1 --command zsh
       }
+    # Add to ~/.bashrc or ~/.zshrc
+    if [[ $TERM_PROGRAM == 'vscode' ]]; then
+        eval '$(develop python)'
+        source /home/bepnos/path/to/project/.venv/bin/activate
+    fi
     ";
   };
 }

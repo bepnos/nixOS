@@ -47,6 +47,8 @@
     openssh.enable = true;
   };
 
+  # hello there
+
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
