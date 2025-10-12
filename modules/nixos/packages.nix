@@ -44,6 +44,7 @@
     unzip
     gammastep
     code-server
+    nix-direnv
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
