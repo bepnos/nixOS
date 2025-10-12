@@ -30,10 +30,6 @@
       function develop() {
         nix develop ~/nixos/shells/#$1 --command zsh
       }
-    if [[ $TERM_PROGRAM == 'vscode' && -z '$VIRTUAL_ENV' ]]; then
-        eval '$(develop python)'
-        source /home/bepnos/Repos/deepfin/.venv/bin/activate
-    fi
     ";
   };
 }

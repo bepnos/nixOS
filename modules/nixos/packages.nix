@@ -43,6 +43,7 @@
     zotero
     unzip
     gammastep
+    code-server
     (import ../../scripts/rebuild.nix { inherit pkgs; })
   ];
 }
