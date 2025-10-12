@@ -25,6 +25,9 @@
     package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
   };
 
+  programs.direnv.enable = true;
+  programs.direnv.nix-direnv.enable = true;
+
   programs.nix-ld = {
     enable = true;
   };
