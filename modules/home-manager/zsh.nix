@@ -30,6 +30,7 @@
       function develop() {
         nix develop ~/nixos/shells/#$1 --command zsh
       }
+      eval '$(direnv hook zsh)';
     ";
   };
 }
